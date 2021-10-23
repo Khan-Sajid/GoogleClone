@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 25px;
+    margin: 15px;
+    padding: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.googlelogo{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 5px;
+}
+button:hover{
+    outline: black 1px solid;
+}
+
+.xyz {
+    margin: 5px;
+    padding: 2px;
+    text-decoration-line: none;
+    font-size: 0.8em;
+    color: rgb(3, 3, 146);
+}
+.searchbar {
+    position: relative;
+    border: rgb(197, 194, 194) solid;
+    align-self: center;
+    margin: 20px;
+    border-radius: 25px;
+    height: 40px;
+    border-width: thin;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+.searchbar:hover{
+    outline: 1px solid black;
+}
+.search{
+    position: absolute;
+    height: 10px;
+    left: 15px;
+    top: 10px;
+}
+.voice{
+    position: absolute;
+    height: 10px;
+    right: 15px;
+    top: 10px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-collapse: collapse;
+    outline: none;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(241, 240, 240);
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.india{
+    padding-left: 50px;
+    padding: 15px;
+    font-size: 1.1em;
+    background-color: rgb(238, 236, 236);
+    border-bottom:1px rgb(133, 131, 131) solid;
+    color: rgb(82, 80, 80);
+}
+.abc{
+    text-decoration-line: none;
+    color: rgb(99, 97, 97);
+}
+.left div, .right div{
+    margin: 20px;
+    align-content: center;
+}
+
+.nav:hover, .abc:hover, .xyz:hover{
+    text-decoration-line: underline;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+
